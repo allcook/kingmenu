@@ -11,7 +11,7 @@ if (!globalThis.crypto) {
 const isGithubPages = process.env.GITHUB_PAGES === "true";
 
 export default defineConfig({
-  base: isGithubPages ? "/KingMenu/" : "./",
+  base: isGithubPages ? "/kingMenu/" : "./",
   plugins: [react()],
   optimizeDeps: {
     exclude: ["lucide-react"],
